@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "name": "Access Control",
+      "weight": 25,
+      "questions": [
+        {
+          "id": "AC-1",
+          "text": "Does the application enforce Multi-Factor Authentication (MFA)?",
+          "options": {
+            "A": {"text": "Yes, MFA enforced for all users", "score": 0},
+            "B": {"text": "Yes, MFA enforced for admins only", "score": 10},
+            "C": {"text": "MFA available but not enforced", "score": 20},
+            "D": {"text": "No MFA available", "score": 40}
+          }
+        },
+        {
+          "id": "AC-2",
+          "text": "How is user access reviewed?",
+          "options": {
+            "A": {"text": "Quarterly automated access reviews", "score": 0},
+            "B": {"text": "Annual manual access reviews", "score": 10},
+            "C": {"text": "Ad-hoc reviews only", "score": 25},
+            "D": {"text": "No access reviews conducted", "score": 40}
+          }
+        },
+        {
+          "id": "AC-3",
+          "text": "Does the application follow least privilege principle?",
+          "options": {
+            "A": {"text": "Yes, role-based access strictly enforced", "score": 0},
+            "B": {"text": "Partially implemented", "score": 15},
+            "C": {"text": "Planned but not implemented", "score": 25},
+            "D": {"text": "No, broad access granted by default", "score": 40}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Data Protection",
+      "weight": 25,
+      "questions": [
+        {
+          "id": "DP-1",
+          "text": "How is data encrypted at rest?",
+          "options": {
+            "A": {"text": "AES-256 encryption with key rotation", "score": 0},
+            "B": {"text": "Encryption enabled, standard not specified", "score": 10},
+            "C": {"text": "Partial encryption of sensitive fields only", "score": 25},
+            "D": {"text": "No encryption at rest", "score": 40}
+          }
+        },
+        {
+          "id": "DP-2",
+          "text": "How is data encrypted in transit?",
+          "options": {
+            "A": {"text": "TLS 1.3 enforced everywhere", "score": 0},
+            "B": {"text": "TLS 1.2 in use", "score": 5},
+            "C": {"text": "TLS enabled but older versions allowed", "score": 20},
+            "D": {"text": "No encryption in transit", "score": 40}
+          }
+        },
+        {
+          "id": "DP-3",
+          "text": "Is personal/sensitive data classified and inventoried?",
+          "options": {
+            "A": {"text": "Full data classification and inventory maintained", "score": 0},
+            "B": {"text": "Partial classification exists", "score": 15},
+            "C": {"text": "Classification in progress", "score": 25},
+            "D": {"text": "No data classification", "score": 40}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Vulnerability Management",
+      "weight": 20,
+      "questions": [
+        {
+          "id": "VM-1",
+          "text": "How frequently are security patches applied?",
+          "options": {
+            "A": {"text": "Within 7 days for critical, 30 days for others", "score": 0},
+            "B": {"text": "Within 30 days for all patches", "score": 10},
+            "C": {"text": "Quarterly patching cycle", "score": 25},
+            "D": {"text": "No formal patching process", "score": 40}
+          }
+        },
+        {
+          "id": "VM-2",
+          "text": "Are regular penetration tests or vulnerability scans conducted?",
+          "options": {
+            "A": {"text": "Annual pentest plus continuous scanning", "score": 0},
+            "B": {"text": "Annual penetration test only", "score": 10},
+            "C": {"text": "Ad-hoc scans only", "score": 25},
+            "D": {"text": "No security testing conducted", "score": 40}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Incident Response",
+      "weight": 15,
+      "questions": [
+        {
+          "id": "IR-1",
+          "text": "Does the application have a documented incident response plan?",
+          "options": {
+            "A": {"text": "Yes, tested within last 12 months", "score": 0},
+            "B": {"text": "Yes, but not recently tested", "score": 15},
+            "C": {"text": "Plan exists but is informal", "score": 25},
+            "D": {"text": "No incident response plan", "score": 40}
+          }
+        },
+        {
+          "id": "IR-2",
+          "text": "Are security logs and audit trails maintained?",
+          "options": {
+            "A": {"text": "Centralised logging with 12 month retention", "score": 0},
+            "B": {"text": "Logging enabled, 90 day retention", "score": 10},
+            "C": {"text": "Basic logging, retention under 30 days", "score": 25},
+            "D": {"text": "No centralised logging", "score": 40}
+          }
+        }
+      ]
+    },
+    {
+      "name": "Compliance & Certifications",
+      "weight": 15,
+      "questions": [
+        {
+          "id": "CC-1",
+          "text": "Does the application owner hold relevant security certifications?",
+          "options": {
+            "A": {"text": "ISO 27001 certified and SOC 2 audited", "score": 0},
+            "B": {"text": "ISO 27001 certified only", "score": 10},
+            "C": {"text": "Certification in progress", "score": 20},
+            "D": {"text": "No certifications held", "score": 40}
+          }
+        },
+        {
+          "id": "CC-2",
+          "text": "Is the application compliant with GDPR/DSGVO requirements?",
+          "options": {
+            "A": {"text": "Fully compliant with documented evidence", "score": 0},
+            "B": {"text": "Largely compliant, minor gaps identified", "score": 10},
+            "C": {"text": "Compliance assessment in progress", "score": 25},
+            "D": {"text": "No GDPR compliance assessment done", "score": 40}
+          }
+        }
+      ]
+    }
+  ]
+}

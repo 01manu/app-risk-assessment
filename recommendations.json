@@ -1,0 +1,62 @@
+{
+  "AC-1": {
+    "B": "Extend MFA enforcement to all users, not just administrators",
+    "C": "Make MFA mandatory for all user accounts immediately",
+    "D": "Implement MFA as highest priority — this is a critical access control gap"
+  },
+  "AC-2": {
+    "B": "Move to quarterly access reviews to detect privilege creep earlier",
+    "C": "Establish a formal quarterly access review process with documented sign-off",
+    "D": "Implement immediate access review and establish regular review cycle"
+  },
+  "AC-3": {
+    "B": "Complete least privilege implementation across all user roles",
+    "C": "Prioritise least privilege implementation — start with admin accounts",
+    "D": "Immediately audit and restrict all user access to minimum required"
+  },
+  "DP-1": {
+    "B": "Document and verify the encryption standard used for compliance evidence",
+    "C": "Extend encryption to all data fields, not just sensitive ones",
+    "D": "Implement AES-256 encryption at rest immediately — critical data protection gap"
+  },
+  "DP-2": {
+    "B": "Plan migration to TLS 1.3 within next 6 months",
+    "C": "Disable TLS versions below 1.2 immediately and plan TLS 1.3 upgrade",
+    "D": "Implement TLS encryption in transit immediately — critical vulnerability"
+  },
+  "DP-3": {
+    "B": "Complete data classification across all data types and systems",
+    "C": "Accelerate data classification project — required for GDPR compliance",
+    "D": "Conduct immediate data classification exercise before any further processing"
+  },
+  "VM-1": {
+    "B": "Establish separate SLA for critical patches — 30 days is too slow for critical CVEs",
+    "C": "Move to monthly patching at minimum — quarterly leaves systems exposed too long",
+    "D": "Establish formal patch management process immediately"
+  },
+  "VM-2": {
+    "B": "Add continuous vulnerability scanning between annual pentests",
+    "C": "Establish regular scheduled scanning and annual penetration testing",
+    "D": "Commission immediate vulnerability assessment and establish regular testing programme"
+  },
+  "IR-1": {
+    "B": "Schedule incident response plan test within next 90 days",
+    "C": "Formalise and document the incident response plan and schedule a test",
+    "D": "Develop incident response plan immediately — required for ISO 27001 and DORA compliance"
+  },
+  "IR-2": {
+    "B": "Extend log retention to minimum 12 months for compliance and forensics",
+    "C": "Implement centralised logging and extend retention period",
+    "D": "Implement centralised logging immediately — essential for incident detection and forensics"
+  },
+  "CC-1": {
+    "B": "Consider pursuing SOC 2 audit for additional assurance",
+    "C": "Accelerate certification timeline — target ISO 27001 as priority",
+    "D": "Begin ISO 27001 gap assessment immediately"
+  },
+  "CC-2": {
+    "B": "Document and remediate identified GDPR gaps with target dates",
+    "C": "Complete GDPR compliance assessment and remediate gaps before processing personal data",
+    "D": "Conduct immediate GDPR assessment — non-compliance carries significant regulatory risk"
+  }
+}
